@@ -1,0 +1,23 @@
+.header{
+    text-align: center;
+    color: rgb(255, 0, 157);
+    height: 80px;
+}
+
+html{
+    background-color: rgb(45, 45, 45);
+}
+
+.contents{
+    background-color: aliceblue;
+    margin: 50px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: rgb(255, 0, 157);
+}
