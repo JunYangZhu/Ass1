@@ -12,12 +12,34 @@ html{
     background-color: aliceblue;
     margin: 50px;
     border-radius: 5px;
-    padding: 5px;
+    padding:10px;
+    padding-left: 50px;
 }
 
-.navigation{
+nav{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     color: rgb(255, 0, 157);
+    width:max-content;
+}
+
+a{
+    background-color: rgb(255, 0, 157);
+    font-size: 35px;
+    border-color: rgb(45, 45, 45);
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    color:aliceblue;
+    text-decoration-color: rgb(255, 0, 157);
+}
+
+@media (max-width:576px){
+    nav{
+        display:flex;
+        flex-wrap: wrap;
+        font-size: 20px;
+    }
 }
