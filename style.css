@@ -17,30 +17,27 @@ html{
 }
 
 nav{
+    position:relative;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     color: rgb(255, 0, 157);
-    width:max-content;
+    width:100%;
 }
 
 a{
     background-color: rgb(255, 0, 157);
-    font-size: 35px;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 20px;
-    padding-bottom: 15px;
+    font-size: 30px;
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-top: 15px;
+    padding-bottom: 10px;
     color:aliceblue;
     text-decoration-color: rgb(255, 0, 157);
 }
 
-@media (max-width:576px){
-    nav{
-        display:flex;
-        flex-wrap: wrap;
-        font-size: 20px;
-    }
+.inPage{
+    background-color: rgb(171, 0, 106);
 }
 
 img{
@@ -56,5 +53,18 @@ img{
 }
 
 .songlist{
-    flex-wrap: wrap;
+    padding-right: 30px;
+}
+
+@media (max-width:576px){
+    nav{
+        display:flex;
+        flex-wrap: wrap;
+        font-size: 20px;
+    }
+
+    .albums{
+        flex-direction: column;
+        max-width: 190px;
+    }
 }
