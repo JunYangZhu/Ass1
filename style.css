@@ -13,11 +13,20 @@ html{
     background-color: rgb(45,45,45);
 }
 
-.contents{
+.collection{
     background-color: rgb(226, 236, 245);
     margin: 50px;
     border-radius: 5px;
     padding: 40px;
+}
+
+.contents{
+    background-color: rgb(226, 236, 245);
+    margin: 50px;
+    max-width: 500px;
+    border-radius: 5px;
+    padding: 40px;
+    margin-left: 350px;
 }
 
 h2{
@@ -144,6 +153,10 @@ ul {
     border-radius: 5px;
 }
 
+iframe{
+    
+}
+
 @media (max-width: 920px) {
     .flex-item {
         flex: 1 28%;
@@ -167,5 +180,9 @@ ul {
         flex-basis: 45%;
         flex-grow: 1;
         flex-grow: inherit;
+    }
+
+    .contents{
+        margin-left: 50px;
     }
 }
